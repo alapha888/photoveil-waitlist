@@ -1,10 +1,10 @@
 # PhotoVeil (working name) — waitlist validation page
 
-A planned local-first photo privacy app, iOS first (Android later from the same codebase): batch-remove EXIF/GPS/device metadata on-device, view what a photo reveals, stamp a purpose watermark on ID/sensitive photos, and batch-convert HEIC → JPEG/WebP. Free single-photo cleaning; planned $9.99 one-time lifetime unlock for batch features.
+A local-first photo privacy app in development, iOS first (native Swift/SwiftUI; Android later as a separate native Kotlin build): batch-remove EXIF/GPS/device metadata on-device, view what a photo reveals, stamp a purpose watermark on ID/sensitive photos, and batch-convert HEIC → JPEG/WebP. Free single-photo cleaning; planned $9.99 one-time lifetime unlock for batch features.
 
 - Validation page: https://alapha888.github.io/photoveil-waitlist/
-- Status: product not built. This repo contains only the validation page — no product source code.
-- Decision rule: registrations ≥30 by 2026-10-31 → apply for the Apple Developer Program ($99/year, needs the account holder's approval) and start building; below that, drop the idea and notify registrants by email. Registrations are split by platform (iOS/Android) to decide ship order; the Google Play $25 fee and its 14-day closed test only start once iOS has a signal.
+- Status: MVP in development in a separate private repo (iOS native). This repo contains only the validation page — no product source code.
+- Decision rule: the waitlist keeps measuring demand while the MVP is built. Registrations ≥30 by 2026-10-31 strengthen the case for submitting at the first ready build; below that, submission timing is re-reviewed. The Apple Developer Program fee ($99/year) is only requested at the submission node and needs the account holder's approval. Registrations are split by platform (iOS/Android) to decide ship order; the Google Play $25 fee and its 14-day closed test only start once iOS has a signal.
 - Indicative price (test parameter): $9.99 one-time. No payment taken, no pre-order.
 - Demand evidence: see the goal's mobile/new-form scan (2026-10-10) — category-level paid evidence from developer self-reports for local-first single-purpose apps (Dark Noise, Spend Stack), pricing band $2.99–$19.99; segment-level (EXIF tools) paid evidence is missing, which is exactly what this waitlist tests.
 
